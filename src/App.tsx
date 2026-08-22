@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
 import Cart from './pages/Cart';
@@ -8,7 +9,6 @@ import Board from './pages/Board';
 import Admin from './pages/Admin';
 import Login from './pages/Login';
 import Register from './pages/Register';
-import AddPizza from './pages/AddPizza';
 
 function App() {
     return (
@@ -22,11 +22,11 @@ function App() {
                     <Route path="/orders" element={<Orders />} />
                     <Route path="/board" element={<Board />} />
                     <Route path="/admin" element={<Admin />} />
-                    <Route path="/add-pizza" element={<AddPizza />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/register" element={<Register />} />
                 </Routes>
             </div>
+            <Footer />
         </BrowserRouter>
     );
 }

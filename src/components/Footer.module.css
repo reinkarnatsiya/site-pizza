@@ -1,0 +1,31 @@
+/* src/components/Footer.module.css */
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 20px 0;
+    margin-top: 40px; /* отступ от контента */
+    border-top: 2px solid #e63946;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content p {
+    margin: 0;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .content {
+        flex-direction: column;
+        text-align: center;
+    }
+}

@@ -26,7 +26,6 @@ const Navbar = () => {
                     {user?.role === 'admin' && (
                         <>
                             <Link to="/admin">Панель</Link>
-                            <Link to="/add-pizza">➕ Добавить</Link>
                         </>
                     )}
                 </div>
