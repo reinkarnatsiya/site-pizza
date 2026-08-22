@@ -1,0 +1,119 @@
+.adminContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.noOrders {
+    text-align: center;
+    padding: 3rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orderCard {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.orderHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.orderId {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #e31832;
+}
+
+.statusBadge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.statusPending {
+    background-color: #ff8a00;
+    color: white;
+}
+
+.statusCooking {
+    background-color: #2196f3;
+    color: white;
+}
+
+.statusReady {
+    background-color: #4caf50;
+    color: white;
+}
+
+.statusCompleted {
+    background-color: #666;
+    color: white;
+}
+
+.orderInfo {
+    margin-bottom: 0.5rem;
+}
+
+.orderInfo p {
+    margin: 0.5rem 0;
+}
+
+.pizzasList {
+    background-color: #f9f9f9;
+    padding: 0.75rem;
+    border-radius: 8px;
+    margin: 0.75rem 0;
+}
+
+.totalPrice {
+    font-weight: bold;
+    color: #e31832;
+    font-size: 1.125rem;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.actionBtn {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+}
+
+.cookingBtn {
+    background-color: #2196f3;
+}
+
+.cookingBtn:hover {
+    background-color: #1976d2;
+}
+
+.readyBtn {
+    background-color: #4caf50;
+}
+
+.readyBtn:hover {
+    background-color: #388e3c;
+}
+
+.completeBtn {
+    background-color: #ff9800;
+}
+
+.completeBtn:hover {
+    background-color: #f57c00;
+}
