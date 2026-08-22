@@ -44,7 +44,6 @@ const Admin = () => {
     return (
         <div className={styles.adminContainer}>
             <h1 className="page-title">Управляй пиццерией</h1>
-            <h2 style={{ marginBottom: '1.5rem' }}>(лучше других)</h2>
 
             {orders.length === 0 ? (
                 <div className={styles.noOrders}>

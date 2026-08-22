@@ -46,3 +46,16 @@ button:hover {
     border-left: 4px solid #ff8a00;
     padding-left: 1rem;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container {
+    flex: 1;
+}
