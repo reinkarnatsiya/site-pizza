@@ -1,6 +1,6 @@
 // src/api/api.ts
 
-const API_URL = ''; // пустая строка — запросы на тот же домен
+const API_URL = 'https://site-pizza-defu.onrender.com';
 
 export interface ApiUser {
     id: string;
